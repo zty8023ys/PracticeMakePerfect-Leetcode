@@ -47,7 +47,8 @@
  * @param {number} n
  * @return {string}
  */
-var countAndSay = function (n) {
+var countAndSay = function(n) {
+    
     let ret = "1";
     n--;
     while (n) {
